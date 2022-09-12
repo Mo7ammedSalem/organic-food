@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <meta name="description" content="Description Site" />
+      <meta name="keywords" content="Key Words Site 65,65 word" />
+      <meta name="author" content="Asmaa Zeyada" />
+      <title>grocery website</title>
+      <!-- Google Fonts Nunito -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap"
+         rel="stylesheet"
+      />
+      <!-- Font Awesome Css File -->
+      <link rel="stylesheet" href="./css/all.min.css" />
+      <!-- Custome File Css -->
+      <link rel="stylesheet" href="./css/style.css" />
+   </head>
+   <body>
+      <div class="header" id="home">
+         <div class="header-content container">
+            <a href="#" class="logo">
+               <i class="fas fa-utensils"></i>Ecomax
+            </a>
+            <form action="">
+               <input
+                  type="search"
+                  id="searchInput"
+                  placeholder="Search here..."
+               />
+               <label for="searchInput" class="btn-green"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+               ></label>
+            </form>
+         </div>
+      </div>
+      <nav>
+         <div class="container">
+            <div class="nav-content ">
+               <label for="checked"><i class="fas fa-bars fa-2xl"></i></label>
+               <input type="checkbox"  id="checked">
+               <ul class="navbar-nav">
+                  <li class="nav-item"><a href="#home" class="nav-link">home</a></li>
+                  <li class="nav-item"><a href="#category" class="nav-link">category</a></li>
+                  <li class="nav-item"><a href="#product" class="nav-link">product</a></li>
+                  <li class="nav-item"><a href="#deal" class="nav-link">deal</a></li>
+                  <li class="nav-item"><a href="#contact" class="nav-link">contact</a></li>
+               </ul>
+               <div class="icons-header">
+                  <span><i class="fas fa-cart-shopping fa-xl"></i></span>
+                  <span><i class="fas fa-heart fa-xl"></i></span>
+                  <span><i class="fas fa-user-circle fa-xl"></i></span>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <header>
+         <!-- Start Landing -->
+         <section class="landing">
+            <div class="container">
+               <div class="landing-content">
+                  <div class="image">
+                     <img src="./images/about-img.png" alt="Products photos" />
+                  </div>
+                  <div class="content">
+                     <p>Fresh And Organic</p>
+                     <h1>
+                        Your Daily Need<br />
+                        Products
+                     </h1>
+                     <button type="button" class="btn-green">
+                        get started
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Start Offer  -->
+         <section class="offer">
+            <div class="container">
+               <div class="content">
+                  <div class="banner">
+                     <img
+                        src="./images/banner-1.jpg"
+                        alt="Special Offer photo"
+                     />
+                     <div class="banner-content">
+                        <h2>Special Offer</h2>
+                        <p>Upto 45% Off</p>
+                        <button type="button" class="btn-green">
+                           check out
+                        </button>
+                     </div>
+                  </div>
+                  <div class="banner">
+                     <img
+                        src="./images/banner-2.jpg"
+                        alt="Special Offer photo"
+                     />
+                     <div class="banner-content">
+                        <h2>Limited Offer</h2>
+                        <p>Upto 45% Off</p>
+                        <button type="button" class="btn-green">
+                           check out
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </header>
+      <main>
+         <!-- ------------------------------ Start SHOP BY CATEGORY ------------------------------ -->
+         <section class="category" id="category">
+            <div class="container">
+               <div class="main-title">
+                  <h2>SHOP BY <span>CATEGORY</span></h2>
+               </div>
+               <div class="category-content">
+                  <div class="card">
+                     <h3>Vegitables</h3>
+                     <p>Upto 50% Off</p>
+                     <img
+                        src="./images/category-1.png"
+                        alt="Vegitables photo"
+                     />
+                     <button type="button" class="btn-green">shop now</button>
+                  </div>
+                  <div class="card">
+                     <h3>Juice</h3>
+                     <p>Upto 50% Off</p>
+                     <img src="./images/category-2.png" alt="Juice photo" />
+                     <button type="button" class="btn-green">shop now</button>
+                  </div>
+                  <div class="card">
+                     <h3>Meat</h3>
+                     <p>Upto 50% Off</p>
+                     <img src="./images/category-3.png" alt="Meat photo" />
+                     <button type="button" class="btn-green">shop now</button>
+                  </div>
+                  <div class="card">
+                     <h3>Fruite</h3>
+                     <p>Upto 50% Off</p>
+                     <img src="./images/category-4.png" alt="Fruite photo" />
+                     <button type="button" class="btn-green">shop now</button>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- ------------------------------ End SHOP BY CATEGORY ------------------------------ -->
+         <!-- ------------------------------ Start LATEST PRODUCTS ------------------------------ -->
+         <section class="product" id="product">
+            <div class="container">
+               <div class="main-title">
+                  <h2>LATEST <span>PRODUCTS</span></h2>
+               </div>
+               <div class="product-content">
+                  <div class="card">
+                      <span class="discount">-33% </span>
+                      <div class="icons">
+                        <span><i class="fas fa-heart"></i></span>
+                        <span><i class="fas fa-share"></i></span>
+                        <span><i class="fas fa-eye"></i></span>
+                      </div>
+                     <img src="./images/product-1.png" alt="Banana photo" />
+                     <h2 class="title">Organic Banana</h2>
+                     <div class="stars-icon">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star-half-stroke"></i></span>
+                     </div>
+                     <p class="price">$10.50 <span>$13.20</span></p>
+                     <div class="quantity">
+                        <span>Quantity :</span>
+                        <input type="number" min="1" max="1000" value="1" />
+                        <span>/kg</span>
+                     </div>
+                     <button type="button" class="btn-green">
+                        add to cart
+                     </button>
+                  </div>
+                  <div class="card">
+                      <span class="discount">-33% </span>
+                      <div class="icons">
+                        <span><i class="fas fa-heart"></i></span>
+                        <span><i class="fas fa-share"></i></span>
+                        <span><i class="fas fa-eye"></i></span>
+                      </div>
+                     <img src="./images/product-2.png" alt="Banana photo" />
+                     <h2 class="title">Organic Banana</h2>
+                     <div class="stars-icon">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star-half-stroke"></i></span>
+                     </div>
+                     <p class="price">$10.50 <span>$13.20</span></p>
+                     <div class="quantity">
+                        <span>Quantity :</span>
+                        <input
+                           type="number"
+                           min="1"
+                           max="1000"
+                           value="1"
+                        /><span>/kg</span>
+                     </div>
+                     <button type="button" class="btn-green">
+                        add to cart
+                     </button>
+                  </div>
+                  <div class="card">
+                      <span class="discount">-33% </span>
+                      <div class="icons">
+                        <span><i class="fas fa-heart"></i></span>
+                        <span><i class="fas fa-share"></i></span>
+                        <span><i class="fas fa-eye"></i></span>
+                      </div>
+                    
+                     <img src="./images/product-3.png" alt="Banana photo" />
+                     <h2 class="title">Organic Banana</h2>
+                     <div class="stars-icon">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star-half-stroke"></i></span>
+                     </div>
+                     <p class="price">$10.50 <span>$13.20</span></p>
+                     <div class="quantity">
+                        <span>Quantity :</span>
+                        <input type="number" min="1" max="1000" value="1" />
+                        <span>/kg</span>
+                     </div>
+                     <button type="button" class="btn-green">
+                        add to cart
+                     </button>
+                  </div>
+                  <div class="card">
+                      <span class="discount">-33% </span>
+                      <div class="icons">
+                        <span><i class="fas fa-heart"></i></span>
+                        <span><i class="fas fa-share"></i></span>
+                        <span><i class="fas fa-eye"></i></span>
+                      </div>
+                     <img src="./images/product-4.png" alt="Banana photo" />
+                     <h2 class="title">Organic Banana</h2>
+                     <div class="stars-icon">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star-half-stroke"></i></span>
+                     </div>
+                     <p class="price">$10.50 <span>$13.20</span></p>
+                     <div class="quantity">
+                        <span>Quantity :</span>
+                        <input type="number" min="1" max="1000" value="1" />
+                        <span>/kg</span>
+                     </div>
+                     <button type="button" class="btn-green">
+                        add to cart
+                     </button>
+                  </div>
+                  <div class="card">
+                      <span class="discount">-33% </span>
+                      <div class="icons">
+                        <span><i class="fas fa-heart"></i></span>
+                        <span><i class="fas fa-share"></i></span>
+                        <span><i class="fas fa-eye"></i></span>
+                      </div>
+                     <img src="./images/product-5.png" alt="Banana photo" />
+                     <h2 class="title">Organic Banana</h2>
+                     <div class="stars-icon">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star-half-stroke"></i></span>
+                     </div>
+                     <p class="price">$10.50 <span>$13.20</span></p>
+                     <div class="quantity">
+                        <span>Quantity :</span>
+                        <input type="number" min="1" max="1000" value="1" />
+                        <span>/kg</span>
+                     </div>
+                     <button type="button" class="btn-green">
+                        add to cart
+                     </button>
+                  </div>
+                  <div class="card">
+                      <span class="discount">-33% </span>
+                      <div class="icons">
+                        <span><i class="fas fa-heart"></i></span>
+                        <span><i class="fas fa-share"></i></span>
+                        <span><i class="fas fa-eye"></i></span>
+                      </div>
+                     <img src="./images/product-6.png" alt="Banana photo" />
+                     <h2 class="title">Organic Banana</h2>
+                     <div class="stars-icon">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star-half-stroke"></i></span>
+                     </div>
+                     <p class="price">$10.50 <span>$13.20</span></p>
+                     <div class="quantity">
+                        <span>Quantity :</span>
+                        <input type="number" min="1" max="1000" value="1" />
+                        <span>/kg</span>
+                     </div>
+                     <button type="button" class="btn-green">
+                        add to cart
+                     </button>
+                  </div>
+                  <div class="card">
+                      <span class="discount">-33% </span>
+                      <div class="icons">
+                        <span><i class="fas fa-heart"></i></span>
+                        <span><i class="fas fa-share"></i></span>
+                        <span><i class="fas fa-eye"></i></span>
+                      </div>
+                     <img src="./images/product-7.png" alt="Banana photo" />
+                     <h2 class="title">Organic Banana</h2>
+                     <div class="stars-icon">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star-half-stroke"></i></span>
+                     </div>
+                     <p class="price">$10.50 <span>$13.20</span></p>
+                     <div class="quantity">
+                        <span>Quantity :</span>
+                        <input type="number" min="1" max="1000" value="1" />
+                        <span>/kg</span>
+                     </div>
+                     <button type="button" class="btn-green">
+                        add to cart
+                     </button>
+                  </div>
+                  <div class="card">
+                      <span class="discount">-33% </span>
+                      <div class="icons">
+                        <span><i class="fas fa-heart"></i></span>
+                        <span><i class="fas fa-share"></i></span>
+                        <span><i class="fas fa-eye"></i></span>
+                      </div>
+                     <img src="./images/product-8.png" alt="Banana photo" />
+                     <h2 class="title">Organic Banana</h2>
+                     <div class="stars-icon">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star-half-stroke"></i></span>
+                     </div>
+                     <p class="price">$10.50 <span>$13.20</span></p>
+                     <div class="quantity">
+                        <span>Quantity :</span>
+                        <input type="number" min="1" max="1000" value="1" />
+                        <span>/kg</span>
+                     </div>
+                     <button type="button" class="btn-green">
+                        add to cart
+                     </button>
+                  </div>
+                  <div class="card">
+                      <span class="discount">-33% </span>
+                      <div class="icons">
+                        <span><i class="fas fa-heart"></i></span>
+                        <span><i class="fas fa-share"></i></span>
+                        <span><i class="fas fa-eye"></i></span>
+                      </div>
+                     <img src="./images/product-9.png" alt="Banana photo" />
+                     <h2 class="title">Organic Banana</h2>
+                     <div class="stars-icon">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star-half-stroke"></i></span>
+                     </div>
+                     <p class="price">$10.50 <span>$13.20</span></p>
+                     <div class="quantity">
+                        <span>Quantity :</span>
+                        <input type="number" min="1" max="1000" value="1" />
+                        <span>/kg</span>
+                     </div>
+                     <button type="button" class="btn-green">
+                        add to cart
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- ------------------------------ End LATEST PRODUCTS ------------------------------ -->
+         <!-- ------------------------------ Start Deal Of The Day ------------------------------ -->
+         <section class="deal" id="deal">
+            <div class="container">
+               <div class="deal-conten">
+                  <h2 class="title">Deal Of The Day
+                  </h2>
+                  <p class="text">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Veniam Possimus Voluptates Commodi Laudantium! Doloribus Sint Voluptatibus Quaerat Sequi Suscipit Nulla?
+
+                  </p>
+                  <div class="deal-timer">
+                     <div class="item">
+                        <span>43</span>
+                        <p>day</p>
+                     </div>
+                     <div class="item">
+                        <span>10</span>
+                        <p>hour</p>
+                     </div>
+                     <div class="item">
+                        <span>30</span>
+                        <p>minute</p>
+                     </div>
+                     <div class="item">
+                        <span>50</span>
+                        <p>second</p>
+                     </div>
+                  </div>
+                  <button type="button" class="btn-green">check the deal</button>
+               </div>
+            </div>
+         </section>
+         <!-- ------------------------------ End Deal Of The Day ------------------------------ -->
+         <!-- ------------------------------ Start Contact Us ------------------------------ -->
+         <section class="contact" id="contact">
+            <div class="container">
+               <div class="main-title">
+                  <h2><span>CONTACT</span>  Us</h2>
+               </div>
+               <div class="contact-conten">
+                  <form action="">
+                     <div class="row">
+                        <div class="input">
+                           <input type="text" placeholder="name" name="name">
+                           <input type="number" name="number" placeholder="number">
+                        </div>
+                        <div class="input">
+                           <input type="email" placeholder="email" name="email">
+                           <input type="text" name="subject" placeholder="subject">
+                        </div>
+                     </div>
+                     <textarea name="message" placeholder="message" rows="10"></textarea>
+                     <button type="submit" class="btn-green">send message</button>
+                  </form>
+               </div>
+            </div>
+         </section>
+         <!-- ------------------------------ End Contact Us ------------------------------ -->
+         <!-- ------------------------------ Start Subscribe  ------------------------------ -->
+         <section class="subscribe">
+           <div class="container">
+            <div class="title">
+               <h2>Subscribe Us For Latest Updates</h2>
+
+            </div>
+            <form action="">
+               <input type="text" placeholder="enter your email" name="email">
+               <button type="submit" class="btn-green">subscribe</button>
+            </form>
+           </div>
+         </section>
+         <!-- ------------------------------ End Subscribe  ------------------------------ -->
+      </main>
+      <footer>
+        <section class="footer">
+         <div class="container">
+            <div class="footer-content">  
+               <div class="col col-1">
+                  <a href="#">
+                     <h2><i class="fas fa-utensils"></i></i>Ecomax</h2>
+                  </a>
+                  <p>Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Ullam Culpa Sit Enim Nesciunt Rerum Laborum Illum Quam Error Ut Alias!
+
+                  </p>
+                  <div class="social">
+                     <ul>
+                        <li>
+                           <a href=" https://www.facebook.com/3smaa.zeyada.3 " target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
+                        </li>
+                        <li>
+                           <a href="www.linkedin.com/in/asmaa-zeyada-b427a5223" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+                        </li>
+                        <li>
+                           <a href="https://github.com/AsmaaZeyada" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col col-2">
+                  <h2>Our Location
+                  </h2>
+                  <ul>
+                     <li><a href="#">india</a></li>
+                     <li><a href="#">USA</a></li>
+                     <li><a href="#">france</a></li>
+                     <li><a href="#">japan</a></li>
+                     <li><a href="#">russia</a></li>
+                  </ul>
+               </div>
+               <div class="col col-3">
+                  <h2>Quick Links
+
+                  </h2>
+                  <ul>
+                     <li><a href="#home">home</a></li>
+                     <li><a href="#category">category</a></li>
+                     <li><a href="#">france</a></li>
+                     <li><a href="#product">product</a></li>
+                     <li><a href="#deal">deal</a></li>
+                     <li><a href="#contact">contact</a></li>
+                  </ul>
+               </div>
+               <div class="col col-4">
+                  <h2>Download App
+
+
+                  </h2>
+                  <ul>
+                     <li><a href="#">google play</a></li>
+                     <li><a href="#">window xp</a></li>
+                     <li><a href="#">app store</a></li>
+                     
+                  </ul>
+               </div>
+            </div>
+            
+         </div>
+        </section>
+      </footer>
+      <div class="copy-right">
+         <h3>Created By <span>mo salem</span></h3>
+      </div>
+   </body>
+</html>
